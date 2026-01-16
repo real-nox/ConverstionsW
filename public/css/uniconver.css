@@ -16,6 +16,9 @@ header {
 .navlinks {
     color: white;
     margin: 15px;
+    background-color: rgb(255, 0, 38);
+    padding: 5px;
+    border-radius: 10px;
     text-decoration: none;
     font-size: large;
 }
@@ -30,7 +33,7 @@ header {
 }
 
 .container {
-    background-color: rgb(255, 140, 0);
+    background-color: rgb(0, 85, 255);
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -81,4 +84,9 @@ footer {
     display: flex;
     justify-content: center;
     color: rgb(255, 255, 255);
+}
+
+.footertxt a {
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
 }
