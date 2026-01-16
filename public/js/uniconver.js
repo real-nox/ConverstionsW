@@ -9,13 +9,13 @@ function updateUnit() {
     fetch(`https://api.api-ninjas.com/v1/unitconversion?amount=${worth1.value}&unit=${unit1.value}`,
         {
             headers: {
-                'X-Api-Key': `${process.env.API2}`
+                'X-Api-Key': `${API2}`
             }
         })
         .then((res) => res.json())
         .then((data) => {
             console.log(data)
-            worth2.value = data.conversions[unit2.value] * worth1.value;
+            worth2.value = data.conversions[unit2.value];
             unitconv.textContent = `1 ${unit1.value} = ${data.conversions[unit2.value]} ${unit2.value}`
         })
 }

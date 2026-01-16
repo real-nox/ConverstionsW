@@ -9,7 +9,7 @@ const exchangerate = document.getElementById("exchange-rate")
 updateRate()
 
 function updateRate() {
-    fetch(`${process.env.API1}/${currency1.value}`)
+    fetch(`${API1}/${currency1.value}`)
         .then((res) => res.json())
         .then(data => {
             worth2.value = data.conversion_rates[currency2.value] * worth1.value
