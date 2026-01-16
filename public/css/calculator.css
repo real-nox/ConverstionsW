@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: azure;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vb;
+
+    background-color: rgb(206, 0, 0);
+}
+
+.navlinks {
+    color: white;
+    margin: 15px;
+    background-color: rgb(255, 0, 38);
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.container {
+    color: white;
+    height: 82.1vb;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-container {
+    background-color: rgb(46, 171, 129);
+    height: 450px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    margin: 2.5%;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.resultsec input {
+    text-align: center;
+    border: 0;
+    background-color: gray;
+    color: white;
+    font-size: medium;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 85%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: large;
+
+}
+
+.inputs {
+    display: table;
+}
+
+.inputs button {
+    display: table-cell;
+    width: 25%;
+    height: 65px;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+    border-width: 1px 1px 0px 0;
+    border-color: rgb(38, 174, 129);
+    background: rgb(63, 63, 63);
+    background-color: rgb(33, 130, 97)
+}
+
+button {
+    color: white;
+}
+
+.ac {
+    color: rgb(255, 143, 143);
+}
+
+.opt {
+    color: rgb(255, 204, 204);
+}
+
+.inputs button:nth-child(4n) {
+    border-right: none;
+}
+
+.inputs button:active {
+    position: relative;
+    top: 1px;
+}
+
+.inputs button:hover {
+    background:rgb(31, 117, 88);
+}
+footer {
+    background-color: rgb(57, 24, 0);
+    height: 5.5vb;
+}
+
+.footertxt {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.footertxt a {
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
