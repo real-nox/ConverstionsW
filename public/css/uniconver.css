@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: azure;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vb;
+
+    background-color: rgb(206, 0, 0);
+}
+
+.navlinks {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82vb;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(255, 140, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.unit-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.unit-container select {
+    padding: 10px;
+}
+
+.unit-container input {
+    text-align: end;
+    border: 0;
+    background: transparent;
+    color: rgb(219, 219, 255);
+    font-size: 20px;
+}
+
+.unit-conv {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+select:focus,
+input:focus {
+    outline: none;
+}
+
+select {
+    border: 0;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+footer {
+    background-color: rgb(57, 24, 0);
+    height: 5.7vb;
+}
+
+.footertxt {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}

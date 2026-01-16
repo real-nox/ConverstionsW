@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/uniconver.css">
+    <title>Unit Converstion</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="navlinks" href="uniconver.html">Unit Convertion</a>
+            <a class="navlinks" href="index.html">Currency Rate</a>
+        </nav>
+    </header>
+
+    <div class="middle">
+        <div class="container">
+            <h1>Unit Converstion</h1>
+            <div class="unit-container">
+                <select id="unit1">
+                    <option value="nanometer">Nanometer</option>
+                    <option value="micrometer">Micrometer</option>
+                    <option value="millimeter">Millimeter</option>
+                    <option value="centimeter">Centiimenter</option>
+                    <option value="meter" selected>Meter</option>
+                    <option value="furlong">Furlong</option>
+                    <option value="nautical_mile">Nautical Mile</option>
+                    <option value="mile">Mile</option>
+                    <option value="yard">Yard</option>
+                    <option value="foot">Foot</option>
+                    <option value="inch">Inch</option>
+                </select>
+                <input type="number" id="worth1" min="0" max="1000000" value="1">
+            </div>
+            <div class="unit-container">
+                <select id="unit2">
+                    <option value="nanometer">Nanometer</option>
+                    <option value="micrometer">Micrometer</option>
+                    <option value="millimeter" selected>Millimeter</option>
+                    <option value="centimeter">Centiimenter</option>
+                    <option value="meter">Meter</option>
+                    <option value="furlong">Furlong</option>
+                    <option value="nautical_mile">Nautical Mile</option>
+                    <option value="mile">Mile</option>
+                    <option value="yard">Yard</option>
+                    <option value="foot">Foot</option>
+                    <option value="inch">Inch</option>
+                </select>
+                <input type="number" id="worth2" disabled>
+            </div>
+            <p class="unit-conv" id="unit-conv">1 Meter = 39.3700787 Inch</p>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footertxt">Made by ranox</p>
+    </footer>
+    <script src="../js/uniconver.js"></script>
+</body>
+
+</html>

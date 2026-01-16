@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Currency Rate</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="navlinks" href="uniconver.html">Unit Convertion</a>
+            <a class="navlinks" href="index.html">Currency Rate</a>
+        </nav>
+    </header>
+
+    <div class="middle">
+        <div class="container">
+            <h1>Currency conveter</h1>
+            <div class="currency-container">
+                <select id="currency1">
+                    <option value="AUD">AUD</option>
+                    <option value="USD" selected>USD</option>
+                    <option value="MAD">MAD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="JPY">JPY</option>
+                </select>
+                <input type="number" id="worth1" min="0" max="1000000" value="0">
+            </div>
+            <div class="currency-container">
+                <select id="currency2">
+                    <option value="AUD">AUD</option>
+                    <option value="USD">USD</option>
+                    <option value="MAD" selected>MAD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="JPY">JPY</option>
+                </select>
+                <input type="number" id="worth2" disabled>
+            </div>
+            <p class="exchange-rate" id="exchange-rate">1 USA = 9.2243 MAD</p>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footertxt">Made by ranox</p>
+    </footer>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
